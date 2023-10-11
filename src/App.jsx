@@ -9,11 +9,12 @@ import "./app.scss"
 function App() {
   return (
     <>
-    <Register/>
+    {/* <Register/>
     <Login/>
     <Navbar/>
     <Hero/>
-    <Work/>
+    <Work/> */}
+    <h1>hello world</h1>
     </>
   )
 }
