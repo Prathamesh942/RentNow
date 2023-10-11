@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600&family=Poppins:wght@100;400;600&display=swap');
+.navbar {
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    gap: 50px;
+    .logo{
+        display: flex;
+        align-items: center;
+        span{
+
+        }
+    }
+    ul{
+        cursor: pointer;
+        display: flex;
+        gap: 60px;
+        li{
+            list-style: none;
+        }
+    }
+}
